@@ -2,7 +2,7 @@
 async function product() {
 
     try {
-        var res = await fetch('http://makeup-api.herokuapp.com/api/v1/products.json?product_type=lip_liner');
+        var res = await fetch('https://makeup-api.herokuapp.com/api/v1/products.json?product_type=lip_liner');
         var makeup = await res.json();
         console.log(makeup);
     
