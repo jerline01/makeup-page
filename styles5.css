@@ -1,8 +1,13 @@
 body {
     padding: 30px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Lato', sans-serif;
     font-size: 19px;
-    background-color:#FFF1BD;
+    background-color:#F5F5F5;
+}
+
+h4 {
+    color: #364F6B;
+    font-weight: bolder;
 }
 
 h1 {
@@ -13,6 +18,27 @@ h1 {
 img {
     width: 400px;
     height: 400px;
-    padding: 20px;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: 2px solid #DBE2EF;
 }
 
+.brand {
+    color: #3FC1C9;
+    font-weight: bolder;
+    
+}
+
+.desc {
+    color: grey;
+    font-size: 16px;
+}
+
+a {
+    font-size:smaller
+}
+
+.price {
+    color: #FC5185;
+    font-weight: bolder;
+}
